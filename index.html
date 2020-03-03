@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+      <!-- Tipo -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css">
+
+    <title>Examen</title>
+      <style type="text/css">
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          /*Header*/
+          nav{
+            z-index: 2;
+            display: flex;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 90px;
+            width: 100%;
+            position: fixed;
+            padding: 2em 6em;
+            background: white;
+        }
+        nav a{
+            padding: 0 4em 0 0;
+            color: black;
+        }
+        .logo{
+              padding: 0 20em 0 0;
+          }
+        .menu{
+            width: 100%;
+            justify-content: space-between;
+        }
+          /*Main*/
+          h1{
+              font-family: 'abril fatface';
+              font-size: 3em;
+          }
+          h2{
+              font-family: 'abril fatface display';
+          }
+          img{
+              padding: 2px;
+          }
+          .c1{
+              padding: 5em 0 0 0;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+          }
+          .img1{
+              width: 100%;
+              grid-column: span 1;
+              padding: 10px 0 0 0;
+              object-fit: cover;
+          }
+          .txt1{
+              grid-column: span 1;
+              align-content: center;
+              text-align: center;
+              padding: 15em 6em;
+          }
+          .c2{
+              background-color: #efcb56;
+              padding: 10em 0 10em 0;
+              align-content: center;
+              text-align: center;
+          }
+          .txt2{
+              padding: 0 20em 0 20em;
+              
+          }
+          .c3, .c4, .c5, .c6{
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              width: 100%;
+          }
+          #sofa{
+              grid-column: span 2;
+              width: 100%;
+              object-fit: cover;
+          }
+          #cadira{
+              grid-column: span 1;
+              width: 100%;
+              object-fit: cover;
+          }
+          /*FOOTER*/
+          footer{
+              background-color: #535851;
+              padding: 10em 0 10em 0;
+          }
+          .footerinfo{
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              width: 100%;
+              padding: 0 10em 0 10em;
+          }
+          .info1, .info2, .info3, .info4{
+              grid-column: span 1;
+              width: 100%;
+              padding: 0 2em 15em 2em;
+              display: flex;
+              flex-direction: column;
+          }
+          .titulo{
+              
+          }
+          .txt{
+              
+          }
+          .peu{
+              padding: 0 0 0 12em;
+          }
+          .mono{
+              padding: 0 0 0 35em;
+          }
+      </style>
+  </head>
+  <body>
+      <header>
+        <nav class="navegador">
+        <div class="">
+          <a class="menu">Products</a>
+          <a class="menu">Stocklist</a>
+          <a class="menu">About us</a>
+        </div>
+            <a class="logo"><img class="logo" src="img/logo/logo.png" alt=""></a>
+            </nav>          
+      </header>
+      <main>
+          <div class="c1">
+              <img class="img1" src="img/baixa.jpeg" alt="">
+              <div class="txt1">
+              <h1 class="">Lift the blind to let in the light. A moment of calm before the day begins.</h1>
+              <a class="">Featuring <a class="#" href="#">Cherry sofa</a> and <a class="#" href="#">Kile coffee table</a></a>
+              </div>
+          </div>          
+          <div class="c2">
+              <div class="txt2">
+              <h1>Time for Living</h1>
+          <h2>Take time for life’s little moments. Browsing the news as you eat breakfast. Setting the table for hungry guests. Sinking in to your favourite armchair. At Tolv, your daily rituals are at the heart of our design. We make furniture to give you your best day, every day.</h2>
+          <a>Find out more <a class="#" href="#">About us</a></a>
+              </div>
+          </div>
+          <div class="c3">
+              <img id="sofa" src="img/baixa (1).jpeg" alt="">
+              <img id="cadira" src="img/baixa (2).jpeg" alt="">
+              <img id="cadira" src="img/baixa (3).jpeg" alt="">
+          </div>
+          <div class="c4">
+              <img id="cadira" src="img/baixa (4).jpeg" alt="">
+              <img id="sofa" src="img/baixa (5).jpeg" alt="">
+              <img id="cadira" src="img/baixa (6).jpeg" alt="">
+          </div>
+          <div class="c5">
+              <img id="sofa" src="img/baixa (7).jpeg" alt="">
+              <img id="cadira" src="img/baixa (8.1).jpeg" alt="">
+              <img id="cadira" src="img/baixa (8).jpeg" alt="">
+          </div>
+          <div class="c6">
+              <img id="sofa" src="img/baixa (9).jpeg" alt="">
+              <img id="cadira" src="img/baixa (10).jpeg" alt="">
+              <img id="cadira" src="img/baixa (11).jpeg" alt="">
+          </div>
+        
+      </main>
+      <footer>
+        <div class="footerinfo">
+          <div class="info1">
+              <a class="titulo">Products:</a>
+              <a class="txt">Lounge Chairs</a>
+              <a class="txt">Sofas</a>
+              <a class="txt">Daybeds</a>
+              <a class="txt">Poufs</a>
+              <a class="txt">Dining Chairs</a>
+              <a class="txt">Stools</a>
+              <a class="txt">Tables & Desks</a>
+              <a class="txt">Storage</a>
+          </div>
+          <div class="info2">
+              <a class="titulo">Useful information:</a>
+              <a class="txt">Our stockists</a>
+              <a class="txt">Our designers</a>
+              <a class="txt">Product care</a>
+          </div>
+          <div class="info3">
+              <a class="titulo">Company:</a>
+              <a class="txt">News</a>
+              <a class="txt">About us</a>
+              <a class="txt">Contact us</a>
+          </div>
+          <div class="info4">
+              <a class="titulo">Connect with us:</a>
+              <a class="txt">Facebook</a>
+              <a class="txt">Instagram</a>
+              <a class="txt">Blank</a>
+
+              <a class="titulo">Access to:</a>
+              <a class="txt">Client login</a>
+          </div>
+          </div>
+        <div class="peu">
+              <a>All rights reserved Tolv © 2020</a>
+            <div class="mono">
+              <a><img src="img/logo/monograma.png"></a>
+           </div>
+          </div>
+          
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
